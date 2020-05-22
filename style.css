@@ -1,0 +1,103 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.all
+{
+    overflow: hidden;
+}
+.all::before
+{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url('Coronavirus-in-India.jpg') no-repeat center center/cover;
+}
+.main{
+    /* border: 2px solid red; */
+    font-size: 32px;
+    display: inherit;
+    margin: 0px 0px;
+    background-color: white;
+    text-decoration: underline;
+    text-align: center;
+    background-color: #7b4aff54;
+    height: 100px;
+}
+#main
+{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgba(25, 14, 202, 0.74)
+
+}
+.data_container
+{
+    /* border: 10px solid lightpink; */
+    display: flex;
+    width: 60%;
+    margin: 0px auto;
+    height: 350px;
+    margin-top: 20px;
+}
+.stats_container
+{
+    /* border: 10px solid rgb(71, 70, 66); */
+    margin: 3px 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.location_container
+{
+    /* border: 10px solid dodgerblue; */
+        margin: 3px 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 25px;
+    color: #040205bf;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+h1
+{
+    font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 45px;
+}
+#foot
+{
+    /* background-color: darkgrey; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    height: 23px;
+    margin-top: 125px;
+}
+#foot a
+{
+    text-decoration: none;
+} 
